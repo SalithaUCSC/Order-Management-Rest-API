@@ -1,0 +1,75 @@
+db.products.insertMany([
+	{
+		"productName" : "Maggie Noodles",
+		"stockQuantity" : 50,
+		"pricePerUnit" : 56.5
+	},
+	{
+		"productName" : "Jack Mackerel",
+		"stockQuantity" : 50,
+		"pricePerUnit" : 100
+	},
+	{
+		"productName" : "Munchee Chocolate Biscuit pack",
+		"stockQuantity" : 80,
+		"pricePerUnit" : 220
+	},
+	{
+		"productName" : "Sugar 1kg packet",
+		"stockQuantity" : 90,
+		"pricePerUnit" : 110
+	},
+	{
+		"productName" : "Zesta 100g Tea Leaves packet",
+		"stockQuantity" : 30,
+		"pricePerUnit" : 30
+	}
+])
+
+
+db.customers.insertMany([
+	{
+		"name" : "James Butt",
+		"address" : {
+			"addrline1" : "6649 N Blue Gum St",
+			"addrline2" : "",
+			"streetNo" : "6649",
+			"landmark" : "Orleans Church",
+			"city" : "New Orleans",
+			"country" : "USA",
+			"zipCode" : "70116"
+		},
+		"age" : 35,
+		"activeStatus" : true
+	},
+	{
+		"name" : "Adam Clarke",
+		"address" : {
+			"country" : "USA",
+			"zipCode" : "70116",
+			"addrline1" : "6649 N Blue Gum St",
+			"addrline2" : "",
+			"streetNo" : "6649",
+			"city" : "New Orleans",
+			"landmark" : "Orleans Church"
+		},
+		"age" : 40,
+		"activeStatus" : false
+	},
+	{
+		"name" : "Abel Maclead",
+		"address" : {
+			"country" : "USA",
+			"zipCode" : "10011",
+			"addrline1" : "128 Bransten Rd",
+			"addrline2" : "",
+			"streetNo" : "128",
+			"city" : "New York",
+			"landmark" : "New York Fuel Shop"
+		},
+		"age" : 30,
+		"activeStatus" : true
+	}
+])
+
+
