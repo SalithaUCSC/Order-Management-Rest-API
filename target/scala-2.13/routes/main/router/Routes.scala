@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/pool/Desktop/order-management-rest-api/conf/routes
-// @DATE:Wed Apr 01 18:23:29 IST 2020
+// @SOURCE:/home/pool/Documents/order-management-rest-api/conf/routes
+// @DATE:Wed Apr 01 18:31:56 IST 2020
 
 package router
 
